@@ -4,10 +4,438 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.png">
-    <title>Em Breve</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Diários</title>
 </head>
-<body style="background-color:#222;">
-    
+<body>        
+    <!-- Topbar Start -->
+    <div class="topbar" id="homeId">
+        <div class="container">
+            <div class="row">
+                <!-- Topbar Left -->
+                <ul class="nav col-6">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Like</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Post</a>
+                    </li>
+                </ul>
+
+                <!-- Topbar Right -->
+                <ul class="nav col-6 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="tooltip" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="tooltip" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="tooltip" title="Google Plus"><i class="fab fa-google-plus-g"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="tooltip" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="tooltip" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="tooltip" title="Youtube"><i class="fab fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Logo Start -->
+    <div class="logo">
+        <span>Diários Blog</span>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navigation Start -->
+    <div class="nav" id="navbar">
+        <div class="container">
+            <div class="menu">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a href="#homeId" class="nav-link">Home</a></li>                    
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Viagens</a>
+                        <div class="dropdown-menu">
+                            <a href="#londresId" class="dropdown-item">Londres</a>
+                            <a href="#" class="dropdown-item">Dubai</a>
+                            <a href="#" class="dropdown-item">Paris</a>
+                            <a href="#" class="dropdown-item">Cairo</a>
+                            <a href="#" class="dropdown-item">Istambul</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="#articleId" class="nav-link">Artigos</a></li>
+                    <li class="nav-item"><a href="#storyId" class="nav-link">Histórias</a></li>
+                    <li class="nav-item"><a href="#contactId" class="nav-link">Contatos</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Navigation End -->
+
+    <!-- Slider Start -->
+    <div class="slider-wrap">
+        <div class="container">
+            <div class="main-slider">
+
+                <div class="col-4">
+                    <div class="main-slider-item">
+                        <a href="#">
+                            <img src="images/img1.jpg" alt="">
+                            <div class="main-slider-item-caption">
+                                <span class="badge badge-light">Blog Trip</span>
+                                <h4>Ullam, dolores a totam fugit earum officiis</h4>
+                                <span class="colorwhite"><i class="far fa-heart"></i> 5974</span>
+                                <span class="colorwhite"><i class="far fa-clock"></i> July 11, 2022</span>
+                                <span class="colorwhite"><i class="far fa-comments"></i> 895</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="main-slider-item">
+                        <a href="#">
+                            <img src="images/img2.jpg" alt="">
+                            <div class="main-slider-item-caption">
+                                <span class="badge badge-light">Blog Trip</span>
+                                <h4>Ullam, dolores a totam fugit earum officiis</h4>
+                                <span class="colorwhite"><i class="far fa-heart"></i> 5974</span>
+                                <span class="colorwhite"><i class="far fa-clock"></i> July 11, 2022</span>
+                                <span class="colorwhite"><i class="far fa-comments"></i> 895</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="main-slider-item">
+                        <a href="#">
+                            <img src="images/img3.jpg" alt="">
+                            <div class="main-slider-item-caption">
+                                <span class="badge badge-light">Blog Trip</span>
+                                <h4>Ullam, dolores a totam fugit earum officiis</h4>
+                                <span class="colorwhite"><i class="far fa-heart"></i> 5974</span>
+                                <span class="colorwhite"><i class="far fa-clock"></i> July 11, 2022</span>
+                                <span class="colorwhite"><i class="far fa-comments"></i> 895</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="main-slider-item">
+                        <a href="#">
+                            <img src="images/img4.jpg" alt="">
+                            <div class="main-slider-item-caption">
+                                <span class="badge badge-light">Blog Trip</span>
+                                <h4>Ullam, dolores a totam fugit earum officiis</h4>
+                                <span class="colorwhite"><i class="far fa-heart"></i> 5974</span>
+                                <span class="colorwhite"><i class="far fa-clock"></i> July 11, 2022</span>
+                                <span class="colorwhite"><i class="far fa-comments"></i> 895</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="main-slider-item">
+                        <a href="#">
+                            <img src="images/img5.jpg" alt="">
+                            <div class="main-slider-item-caption">
+                                <span class="badge badge-light">Blog Trip</span>
+                                <h4>Ullam, dolores a totam fugit earum officiis</h4>
+                                <span class="colorwhite"><i class="far fa-heart"></i> 5974</span>
+                                <span class="colorwhite"><i class="far fa-clock"></i> July 11, 2022</span>
+                                <span class="colorwhite"><i class="far fa-comments"></i> 895</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Slider End -->
+
+    <!-- Article Wrap -->
+    <div class="article-wrap" id="londresId">
+        <div class="container">
+
+            <div class="article-heading">
+                <h1>Viagens</h1>
+                <hr>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <span class="badge badge-light">London Trip</span>
+                    <h4>Lorem ipsum dolor sit amet</h4>
+                    <img src="images/article_1.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat illo, officiis, sunt nostrum aperiam officia deleniti repudiandae error ratione perferendis.</p>
+                    <div class="post-meta">
+                        <span class="colorblack"><i class="far fa-heart"></i> 5974</span>
+                        <span class="colorblack"><i class="far fa-clock"></i> July 11, 2022</span>
+                        <span class="colorblack"><i class="far fa-comments"></i> 895</span>
+                    </div>
+                    <a href="#" class="btn btn-dark">Saiba Mais</a>
+                </div>
+
+                <div class="col">
+                    <span class="badge badge-light">London Trip</span>
+                    <h4>Lorem ipsum dolor sit amet</h4>
+                    <img src="images/article_2.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat illo, officiis, sunt nostrum aperiam officia deleniti repudiandae error ratione perferendis.</p>
+                    <div class="post-meta">
+                        <span class="colorblack"><i class="far fa-heart"></i> 5974</span>
+                        <span class="colorblack"><i class="far fa-clock"></i> July 11, 2022</span>
+                        <span class="colorblack"><i class="far fa-comments"></i> 895</span>
+                    </div>
+                    <a href="#" class="btn btn-dark">Saiba Mais</a>
+                </div>
+
+                <div class="col">
+                    <span class="badge badge-light">London Trip</span>
+                    <h4>Lorem ipsum dolor sit amet</h4>
+                    <img src="images/article_3.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat illo, officiis, sunt nostrum aperiam officia deleniti repudiandae error ratione perferendis.</p>
+                    <div class="post-meta">
+                        <span class="colorblack"><i class="far fa-heart"></i> 5974</span>
+                        <span class="colorblack"><i class="far fa-clock"></i> July 11, 2022</span>
+                        <span class="colorblack"><i class="far fa-comments"></i> 895</span>
+                    </div>
+                    <a href="#" class="btn btn-dark">Saiba Mais</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Article End -->
+
+    <!-- Article Wrap Start - Latest Article -->
+    <div class="article-wrap" id="articleId">
+        <div class="container">
+
+            <div class="article-heading">
+                <h1>Artigos</h1>
+                <hr>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <span class="badge badge-light">Indonesia Trip</span>
+                    <h4>Lorem ipsum dolor sit amet</h4>
+                    <img src="images/article_4.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat illo, officiis, sunt nostrum aperiam officia deleniti repudiandae error ratione perferendis.</p>                    
+                    <div class="post-meta">
+                        <span class="colorblack"><i class="far fa-heart"></i> 5974</span>
+                        <span class="colorblack"><i class="far fa-clock"></i> July 11, 2022</span>
+                        <span class="colorblack"><i class="far fa-comments"></i> 895</span>
+                    </div>
+                    <a href="#" class="btn btn-dark">Saiba Mais</a>
+                </div>
+
+                <div class="col">
+                    <span class="badge badge-light">Indonesia Trip</span>
+                    <h4>Lorem ipsum dolor sit amet</h4>
+                    <img src="images/article_5.jpg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat illo, officiis, sunt nostrum aperiam officia deleniti repudiandae error ratione perferendis.</p>                    
+                    <div class="post-meta">
+                        <span class="colorblack"><i class="far fa-heart"></i> 5974</span>
+                        <span class="colorblack"><i class="far fa-clock"></i> July 11, 2022</span>
+                        <span class="colorblack"><i class="far fa-comments"></i> 895</span>
+                    </div>
+                    <a href="#" class="btn btn-dark">Saiba Mais</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Article Wrap End - Latest Article -->
+
+    <!-- Article Wrap Two Start - Latest Article -->
+    <div class="article-wrap article-wrap-two" id="storyId">
+        <div class="container">
+            <div class="article-heading">
+                <h1>Histórias</h1>
+                <hr>
+            </div>
+            <!-- Row Start -->
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/article_6.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                    <div class="post-meta">
+                        <span class="colorblack"><i class="far fa-heart"></i> 5974</span>
+                        <span class="colorblack"><i class="far fa-clock"></i> July 11, 2022</span>
+                        <span class="colorblack"><i class="far fa-comments"></i> 895</span>
+                    </div>
+                    <a href="#" class="btn btn-dark">Conhecer</a>
+                </div>
+
+                <div class="col-3">
+                    <img src="images/article_7.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                    <div class="post-meta">
+                        <span class="colorblack"><i class="far fa-heart"></i> 5974</span>
+                        <span class="colorblack"><i class="far fa-clock"></i> July 11, 2022</span>
+                        <span class="colorblack"><i class="far fa-comments"></i> 895</span>
+                    </div>
+                    <a href="#" class="btn btn-dark">Conhecer</a>
+                </div>                                       
+            </div>
+            <!-- Row End -->
+
+            <!-- Row Start -->
+            <div class="row mt-5">
+                <div class="col-3">
+                    <img src="images/article_8.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                    <div class="post-meta">
+                        <span class="colorblack"><i class="far fa-heart"></i> 5974</span>
+                        <span class="colorblack"><i class="far fa-clock"></i> July 11, 2022</span>
+                        <span class="colorblack"><i class="far fa-comments"></i> 895</span>
+                    </div>
+                    <a href="#" class="btn btn-dark">Conhecer</a>
+                </div>
+
+                <div class="col-3">
+                    <img src="images/article_9.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                    <div class="post-meta">
+                        <span class="colorblack"><i class="far fa-heart"></i> 5974</span>
+                        <span class="colorblack"><i class="far fa-clock"></i> July 11, 2022</span>
+                        <span class="colorblack"><i class="far fa-comments"></i> 895</span>
+                    </div>
+                    <a href="#" class="btn btn-dark">Conhecer</a>
+                </div>
+            </div>
+            <!-- Row End -->
+        </div>
+    </div>
+    <!-- Article Wrap Two End - Latest Article -->
+
+    <!-- Footer Start -->
+    <div class="footer" id="contactId">
+        <div class="container">
+            <div class="row">
+                <div class="col">                    
+                    <div class="w-100 footer-link">
+                        <h3 class="footer-title">Hit Tags</h3>
+                        <a href="#">Travel</a>
+                        <a href="#">Nature</a>
+                        <a href="#">Style</a>
+                        <a href="#">People</a>
+                        <a href="#">Girl</a>
+                        <a href="#">Fashion</a>
+                        <a href="#">Momtain</a>
+                        <a href="#">Photograph</a>
+                        <a href="#">Men</a>
+                        <a href="#">Tree</a>
+                        <a href="#">Car</a>
+                        <a href="#">House</a>
+                    </div>
+                    <div class="logo-footer">
+                        <span>Diários Blog</span>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="w-100">
+                        <h3 class="footer-title">Top Artigos</h3>
+                        <div class="row mb-4">
+                            <div class="col-6">
+                                <img src="images/footer_1.jpg" alt="">
+                            </div>
+                            <div class="col-6 p-0">
+                                <a href="#"  class="footer-title-img"><span>Lorem ipsum dolor sit amet</span></a>
+                                <div class="post-meta">
+                                    <span class="colorblack"><i class="far fa-heart"></i> 5974</span>
+                                    <span class="colorblack"><i class="far fa-clock"></i> July 11, 2022</span>
+                                    <span class="colorblack"><i class="far fa-comments"></i> 895</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-4">
+                            <div class="col-6">
+                                <img src="images/footer_2.jpg" alt="">
+                            </div>
+                            <div class="col-6 p-0">
+                                <a href="#" class="footer-title-img"><span>Lorem ipsum dolor sit amet</span></a>
+                                <div class="post-meta">
+                                    <span class="colorblack"><i class="far fa-heart"></i> 5974</span>
+                                    <span class="colorblack"><i class="far fa-clock"></i> July 11, 2022</span>
+                                    <span class="colorblack"><i class="far fa-comments"></i> 895</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="w-100 footer-link">
+                        <h3 class="footer-title">Contatos</h3>
+                        <a href="#"><i class="fab fa-facebook-f"> Facebook</i></a>
+                        <a href="#"><i class="fab fa-twitter"> Twitter</i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"> Linkedin</i></a>
+                        <a href="#"><i class="fab fa-instagram"> Instagram</i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"> Google Plus</i></a>
+                        <a href="#"><i class="fab fa-vk"> VK</i></a>
+                        <a href="#"><i class="fab fa-youtube"> Youtube</i></a>
+                        <a href="#"><i class="fab fa-pinterest"> Pinterest</i></a>
+                        <a href="#"><i class="fas fa-rss"> Rss</i></a>
+                        <a href="#"><i class="fas fa-share-square"> Share Square</i></a>
+                        <a href="#"><i class="fab fa-dribbble"> Dribbble</i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <p class="copyright">&copy; Diários - 2022</p>
+            </div>
+        </div>        
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll Button Start-->
+    <button onclick="topFunction()" id="btnScroll" title="Topo"><i class="fa fa-caret-up"></i></button>
+    <!-- Scroll Button End-->
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/script.js"></script>
+
 </body>
 </html>
